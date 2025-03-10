@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PolarizadosProfesional</title>
+    <link rel="shortcut icon" href="../static/images/logo/logoPolarizadosProfesionalIcono1.png" sizes="16x16" type="image/x-icon">
+    <link rel="stylesheet" href="../static/css/bootstrap.css">  
+    <link rel="stylesheet" href="../static/css/twentytwenty.css">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="../static/js/scripts.js"></script>
+</head>
+<style>
+    .whatsapp-tooltip {
+        position: fixed;
+        bottom: 80px;
+        right: 25px;
+        background: #25d366;
+        color: white;
+        padding: 8px 12px;
+        border-radius: 5px;
+        display: none;
+        font-size: 14px;
+    }
+    .brand-logo {
+        max-width: 120px;
+        height: auto;
+        transition: transform 0.3s ease-in-out;
+    }
+    .brand-logo:hover {
+        transform: scale(1.1);
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: black;">
+        <div class="container" style="padding-top: 1.5rem;padding-bottom: 1.5rem;padding-left: 4.5rem;padding-right: 3rem;">
+            <a class="navbar-brand" href="polarizadosprofesionales.html" >
+                <img src="../static/images/logo/nabar-brad.png" width="330">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item" style="margin-right: 1rem;"><a class="nav-link" href="#inicio" >Inicio</a></li>
+                    <li class="nav-item" style="margin-right: 1rem;"><a class="nav-link" href="#servicios" >Servicios</a></li>
+                    <li class="nav-item" style="margin-right: 1rem;"><a class="nav-link" href="#instalaciones" >Instalaciones</a></li>
+                    <li class="nav-item" style="margin-right: 1rem;"><a class="nav-link" href="#clientes" >Clientes</a></li>
+                    <li class="nav-item" style="margin-right: 1rem;"><a class="nav-link" href="#metodos-pago" >Métodos de Pago</a></li>
+                    <li class="nav-item" style="margin-right: 1rem;"><a class="nav-link" href="#contacto" >Contáctenos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio" class="text-white position-relative" style="margin-bottom: 35rem; background-color: black;">
+        <div class="contenedor" style="height: 43rem; overflow: hidden;  position: relative;">
+            <img class="imagen" src="../static/images/degrad-oscuro.jpg" width="100%">
+            <div class="degradado"></div>
+            <div class="position-absolute top-50 start-10 translate-middle-y text-white text-start" style="max-width: 40%;margin-left: 9rem;">
+                <div style="display: flex; align-items: center;">
+                    <h2 class="fw-bold m-0">Especialistas en Polarizado y Protección Vehicular en Cali</h2>
+                    <i class="fas fa-check-circle" style="font-size: 3rem; color: #ffc107;"></i>
+                </div>
+                <p class="lead" style="margin-top: 2rem;margin-bottom: 2rem;">Tu vehículo merece lo mejor. Aquí encontrarás calidad garantizada, atención profesional y un servicio confiable para que luzca impecable y protegido. ¡Confía en los expertos!</p>
+                <div class="mt-4">
+                    <a href="tel:+573163684665" class="btn btn-warning btn-lg fw-bold">
+                        <div class="row align-items-center g-2">
+                            <div class="col-auto d-flex align-items-center justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 1.5rem;" fill="brown">
+                                    <path d="M280 0C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-32-72c0-13.3 10.7-24 24-24c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24zM117.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L144 207.3c33.3 70.4 90.3 127.4 160.7 160.7L345 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C481.8 499.9 466 512 448 512C200.6 512 0 311.4 0 64C0 46 12.1 30.2 29.5 25.4l88-24z"/>
+                                </svg>
+                            </div>
+                            <div class="col">
+                                <div class="fw-bold">Más Información</div>
+                                <div class="text-muted">3163684665</div>
+                            </div>
+                        </div>                                                
+                    </a>
+                </div>
+            </div>          
+        </div>
+        
+        <div class="container text-white py-5" style="background-color: black;">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 mb-4 mb-lg-0 text-center text-lg-start" style="padding-left: 2rem;">
+                    <img class="imagen img-fluid" src="../static/images/6.jpeg" alt="Imagen de inicio">
+                </div>
+                <div class="col-lg-6 col-md-12 text-center text-lg-start px-4">
+                    <h1>¡Calidad y confianza en cada instalación. Porque tu vehículo merece lo mejor!</h1>
+                    <h3 class="text-peque mt-3 mb-3">Contamos con un equipo de profesionales capacitados para realizar la instalación de polarizados en vehículos de manera rápida y eficiente.</h3>
+                    <div class="card mx-auto mx-lg-0" style="background-color: #6AC5E7; max-width: 10cm;">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <div class="me-3"><i class="fa-solid fa-truck-fast fa-2xl" style="color: #ffffff;"></i></div>
+                                <h5 style="color: #ffffff;">¡Servicios a Domicilio!</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="row justify-content-center text-center my-5">
+                <div class="col-12">
+                    <h2>Nuestro servicio principal, especializado en proporcionar polarizados de <b class="highlighted-text">alta calidad</b> para vehículos.</h2>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center text-center">
+                <div class="col-md-4 col-sm-12 d-flex flex-column align-items-center mb-4">
+                    <img class="imagen" src="../static/images/icon/iconPolarizadosProfesional.png" style="width: 7rem;">
+                    <h5 class="mt-3">Servicio de Polarizado</h5>
+                    <p>Instalamos polarizados profesionales que mejoran la estética, privacidad y protección de tu vehículo, utilizando materiales de alta durabilidad.</p>
+                </div>
+                <div class="col-md-4 col-sm-12 d-flex flex-column align-items-center mb-4">
+                    <img class="imagen" src="../static/images/icon/iconPolarizadosProfesional2.png" style="width: 7rem;">
+                    <h5 class="mt-3">Apariencia y Protección</h5>
+                    <p>Ofrecemos soluciones avanzadas como parabrisas reforzados, semi-blindaje, wraps y PPF (Paint Protection Film) para preservar y mejorar la imagen de tu automóvil.</p>
+                </div>
+                <div class="col-md-4 col-sm-12 d-flex flex-column align-items-center mb-4">
+                    <img class="imagen" src="../static/images/icon/iconPolarizadosProfesional1.png" style="width: 7rem;">
+                    <h5 class="mt-3">Accesorios y Detallado</h5>
+                    <p>Disponemos de una amplia selección de accesorios, detallado profesional y pintura express para mantener tu vehículo en óptimas condiciones.</p>
+                </div>
+            </div>
+        </div>
+        
+        
+    </section>
+    <section id="servicios" class="container-fluid text-white py-5" style="background-color: #000; min-height: 35rem;">
+        <div class="container" style="margin-top: 6rem;">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="fw-bold">Servicios que Ofrecemos</h2>
+                    <p>Contamos con los mejores servicios de polarizado para tu vehículo, garantizando calidad y protección.</p>
+                    
+                    <div class="d-flex align-items-start mb-3">
+                        <i class="bi bi-shield-lock text-warning fs-3 me-3"></i>
+                        <div>
+                            <h5 class="text-warning">Polarizado Americano Premium</h5>
+                            <p>Alta calidad con 3 años de garantía y filtro UV.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex align-items-start mb-3">
+                        <i class="bi bi-brightness-high text-warning fs-3 me-3"></i>
+                        <div>
+                            <h5 class="text-warning">Polarizado con Filtro de Rayos Infrarrojos</h5>
+                            <p>Retiene el 90% de los rayos infrarrojos con 10 años de garantía.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex align-items-start mb-3">
+                        <i class="bi bi-eye text-warning fs-3 me-3"></i>
+                        <div>
+                            <h5 class="text-warning">Polarizado Pro HD</h5>
+                            <p>Visibilidad mejorada y 100% de retención de calor con 15 años de garantía.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex align-items-start mb-4">
+                        <i class="bi bi-star text-warning fs-3 me-3"></i>
+                        <div>
+                            <h5 class="text-warning">Nano Cerámico 3M</h5>
+                            <p>Máxima protección y confort con garantía de por vida.</p>
+                        </div>
+                    </div>
+                    
+                    <a href="https://api.whatsapp.com/send?phone=573163684665&text=%C2%A1Hola!%20%F0%9F%98%8A%20%C2%BFPodr%C3%ADan%20proporcionarme%20una%20cotizaci%C3%B3n%20para%20sus%20servicios%20de%20polarizaci%C3%B3n%20profesional%3F%20Me%20gustar%C3%ADa%20conocer%20las%20opciones%20disponibles%20y%20sus%20respectivos%20precios.%20Quedo%20atento%20a%20su%20respuesta.%20%C2%A1Muchas%20gracias!%20%F0%9F%99%8C" class="btn btn-warning text-dark fw-bold px-4 py-2" target="_blank">Cotiza Ahora</a>
+                </div>
+                
+                <div class="col-lg-6 text-center">
+                    <img src="../static/images/servicio1.jpeg" class="img-fluid rounded" alt="Instalación de polarizado">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid text-white py-5" style="background-color: #000; min-height: 35rem;">
+        <div class="container" style="margin-top: 6rem;">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-center">
+                    <img src="../static/images/servicio3.jpeg" class="img-fluid rounded" alt="Instalación profesional">
+                </div>
+                
+                <div class="col-lg-6">
+                    <h2 class="fw-bold">Instalaciones Profesionales</h2>
+                    <p>Contamos con un equipo de profesionales capacitados para realizar la instalación de polarizados en vehículos de manera rápida y eficiente.</p>
+                    
+                    <div class="d-flex align-items-start mb-3">
+                        <i class="bi bi-tools text-warning fs-3 me-3"></i>
+                        <div>
+                            <h5 class="text-warning">Servicio de Alta Calidad</h5>
+                            <p>Utilizamos materiales de primera asegurando la satisfacción del cliente.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex align-items-start mb-3">
+                        <i class="bi bi-person-check text-warning fs-3 me-3"></i>
+                        <div>
+                            <h5 class="text-warning">Técnicos Especializados</h5>
+                            <p>Profesionales con experiencia en instalación de polarizados.</p>
+                        </div>
+                    </div>
+                    
+                    <a href="https://api.whatsapp.com/send?phone=573163684665&text=%C2%A1Hola!%20%F0%9F%98%8A%20%C2%BFPodr%C3%ADan%20proporcionarme%20una%20cotizaci%C3%B3n%20para%20sus%20servicios%20de%20polarizaci%C3%B3n%20profesional%3F%20Me%20gustar%C3%ADa%20conocer%20las%20opciones%20disponibles%20y%20sus%20respectivos%20precios.%20Quedo%20atento%20a%20su%20respuesta.%20%C2%A1Muchas%20gracias!%20%F0%9F%99%8C" class="btn btn-warning text-dark fw-bold px-4 py-2" target="_blank">Más Información</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="instalaciones" class="container-fluid text-white py-5" style="background-color: black;">
+        <div class="container" style="margin-top: 6rem;">
+            <div class="row justify-content-center align-items-center text-center" style="margin: 5rem;">
+                <h2 class="text-warning">Calidad que Habla por Sí Misma</h2>
+                <h4>Descubre la excelencia en cada detalle. Explora nuestra galería y comprueba el nivel de precisión y acabado que nos distingue.</h4>
+            </div> 
+            <div class="row justify-content-center align-items-center text-center" style="margin: 2rem;">
+                <div class="contenedor-galeria">
+                    <div class="galeria">
+                        <div class="contenedor-imagen">
+                            <figure>
+                                <img src="../static/images/8.jpeg">
+                            </figure>
+                        </div>
+                        <div class="contenedor-imagen">
+                            <figure>
+                                <img src="../static/images/2.jpeg">
+                            </figure>
+                        </div>
+                        <div class="contenedor-imagen">
+                            <figure>
+                                <img src="../static/images/3.jpeg">
+                            </figure>
+                        </div>
+                        <div class="contenedor-imagen">
+                            <figure>
+                                <img src="../static/images/1.jpeg">
+                            </figure>
+                        </div>
+                        <div class="contenedor-imagen">
+                            <figure>
+                                <img src="../static/images/4.jpeg">
+                            </figure>
+                        </div>
+                        <div class="contenedor-imagen">
+                            <figure>
+                                <img src="../static/images/5.jpeg">
+                            </figure>
+                        </div>
+                        <div class="contenedor-imagen">
+                            <figure>
+                                <img src="../static/images/6.jpeg">
+                            </figure>
+                        </div>
+                        <div class="contenedor-imagen">
+                            <figure>
+                                <img src="../static/images/7.jpeg">
+                            </figure>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center text-center" style="margin-top: 2rem;margin-left: 32rem;margin-right: 32rem;">
+                <div class="container text-center">
+                    <a class="btn btn-danger d-flex align-items-center justify-content-center gap-2 px-4 py-3" target="_blank" href="https://api.whatsapp.com/send?phone=573163684665&text=%C2%A1Hola!%20%F0%9F%98%8A%20%C2%BFPodr%C3%ADan%20proporcionarme%20una%20cotizaci%C3%B3n%20para%20sus%20servicios%20de%20polarizaci%C3%B3n%20profesional%3F%20Me%20gustar%C3%ADa%20conocer%20las%20opciones%20disponibles%20y%20sus%20respectivos%20precios.%20Quedo%20atento%20a%20su%20respuesta.%20%C2%A1Muchas%20gracias!%20%F0%9F%99%8C">
+                        <i class="bi bi-whatsapp fs-2"></i>
+                        <h5 class="mb-0 text-white">¡Contáctanos!</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid text-light py-5" style="background: #000; position: relative; overflow: hidden;">
+        <div class="container text-center" style="margin-top: 6rem;">
+            <div class="row">
+                <!-- Sección de texto -->
+                <div class="col-md-6">
+                    <h2 class="fw-bold mb-4 text-warning">Transforma tu Vehículo con los Mejores Profesionales</h2>
+                    <h4 class="text-light"><i class="fa-solid fa-car"></i> Calidad, Estilo y Protección en un Solo Lugar</h4>
+                    <p class="fs-5 mt-3">
+                        Tu auto merece lo mejor. Ofrecemos servicios de <strong>polarizado premium</strong>,
+                        <strong>protección avanzada</strong> y <strong>detallado profesional</strong>, garantizando acabados impecables y máxima durabilidad.
+                    </p>
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-md-4">
+                            <div class="card bg-dark text-light border-warning text-center p-3" style="height: 9rem;">
+                                <i class="fa-solid fa-bolt fs-1 text-warning"></i>
+                                <h5 class="mt-2">Atención rápida</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card bg-dark text-light border-warning text-center p-3" style="height: 9rem;">
+                                <i class="fa-solid fa-cogs fs-1 text-warning"></i>
+                                <h5 class="mt-2">Alta tecnología</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card bg-dark text-light border-warning text-center p-3" style="height: 9rem;">
+                                <i class="fa-solid fa-star fs-1 text-warning"></i>
+                                <h5 class="mt-2">Excelentes resultados</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <a href="tel:+573163684665" class="btn btn-warning btn-lg fw-bold">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 1.5rem;" fill="brown">
+                                <path d="M280 0C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-32-72c0-13.3 10.7-24 24-24c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24zM117.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L144 207.3c33.3 70.4 90.3 127.4 160.7 160.7L345 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C481.8 499.9 466 512 448 512C200.6 512 0 311.4 0 64C0 46 12.1 30.2 29.5 25.4l88-24z"/>
+                            </svg>
+                            ¡Haz que tu auto luzca increíble hoy mismo!
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <!-- Sección de Comparación de Imágenes -->
+                    <div class="row" style="margin-top: 2rem;">
+                        <div class="large-8 columns">
+                        <div class="twentytwenty-container">
+                            <img src="../static/images/1.jpeg" style="width: 100%;" />
+                            <img src="../static/images/2.jpeg" style="width: 100%;"/>
+                        </div>
+                        </div>
+                    </div>
+                    <script>
+                        $(function(){
+                            $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7});
+                            $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.3, orientation: 'vertical'});
+                        });
+                    </script>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section id="marcas" class="container-fluid py-5 bg-white">
+        <div class="container text-center">
+            <h2 class="fw-bold text-danger border-bottom border-3 border-danger d-inline-block pb-2"><b>SERVICIO MULTIMARCA</b></h2>
+            <p class="mb-4 text-dark">Especialistas en todas las marcas de vehículos</p>
+            
+            <div id="carouselMarcas" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center flex-wrap gap-3">
+                            <img src="../static/images/marcas/1.jpg" class="img-fluid brand-logo" style="max-width: 120px; height: auto;">
+                            <img src="../static/images/marcas/2.jpg" class="img-fluid brand-logo" style="max-width: 120px; height: auto;">
+                            <img src="../static/images/marcas/3.jpg" class="img-fluid brand-logo" style="max-width: 120px; height: auto;">
+                            <img src="../static/images/marcas/4.jpg" class="img-fluid brand-logo" style="max-width: 120px; height: auto;">
+                            <img src="../static/images/marcas/5.jpg" class="img-fluid brand-logo" style="max-width: 120px; height: auto;">
+                            <img src="../static/images/marcas/6.jpg" class="img-fluid brand-logo" style="max-width: 120px; height: auto;">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center flex-wrap gap-3">
+                            <img src="../static/images/marcas/7.jpg" class="img-fluid brand-logo" style="max-width: 120px; height: auto;">
+                            <img src="../static/images/marcas/8.jpg" class="img-fluid brand-logo" style="max-width: 120px; height: auto;">
+                            <img src="../static/images/marcas/9.jpg" class="img-fluid brand-logo" style="max-width: 120px; height: auto;">
+                            <img src="../static/images/marcas/10.jpg" class="img-fluid brand-logo" style="max-width: 120px; height: auto;">
+                            <img src="../static/images/marcas/11.jpg" class="img-fluid brand-logo" style="max-width: 120px; height: auto;">
+                            <img src="../static/images/marcas/12.jpg" class="img-fluid brand-logo" style="max-width: 120px; height: auto;">
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselMarcas" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-danger rounded-circle p-2" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselMarcas" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-danger rounded-circle p-2" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselMarcas" data-bs-slide-to="0" class="active bg-danger" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselMarcas" data-bs-slide-to="1" class="bg-danger" aria-label="Slide 2"></button>
+                </div>
+            </div>
+        </div>
+    </section>   
+    <section id="clientes" class="container-fluid text-white py-5" style="background-color: #000;">
+        <div class="container" style="padding-left: 5rem; padding-right: 5rem;">
+            <div class="row align-items-center">
+                <div class="col-md-5 d-flex justify-content-center">
+                    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DFWL23uuedq/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(50% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/reel/DFWL23uuedq/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">Ver esta publicación en Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/reel/DFWL23uuedq/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Una publicación compartida de Litro Motos (@litromotos)</a></p></div></blockquote>
+                </div>
+                <div class="col-md-7">
+                    <div class="container text-center">
+                        <div class="row align-items-center justify-content-center text-center" style="margin-bottom: 2rem;">
+                            <div class="col-lg-10 text-center">
+                                <h2 class="fw-bold mb-4 text-warning">Confía en los expertos</h2>                              
+                                <h5 class="text-center">La calidad y el detalle marcan la diferencia. Lee lo que dicen nuestros clientes más satisfechos y descubre por qué somos su primera elección. Garantía, estilo y protección en cada servicio.</h5>
+                                <a href="https://api.whatsapp.com/send?phone=573163684665&text=%C2%A1Hola!%20%F0%9F%98%8A%20%C2%BFPodr%C3%ADan%20proporcionarme%20una%20cotizaci%C3%B3n%20para%20sus%20servicios%20de%20polarizaci%C3%B3n%20profesional%3F%20Me%20gustar%C3%ADa%20conocer%20las%20opciones%20disponibles%20y%20sus%20respectivos%20precios.%20Quedo%20atento%20a%20su%20respuesta.%20%C2%A1Muchas%20gracias!%20%F0%9F%99%8C" class="btn btn-warning text-dark fw-bold px-4 py-2" target="_blank" style="margin-top: 2rem;">Cotiza Ahora</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div id="comentariosCarousel" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <div class="card profile-card-5" style="width: 25rem; height: 20rem;">
+                                                <div class="card-img-block justify-content-center text-center">
+                                                    <img class="card-img-top" src="../static/images/logo/IMG_8013.PNG" alt="Card image cap" style="width: 15rem;">
+                                                </div>
+                                                <div class="card-header text-center" style="background-color: #637e88;">
+                                                    <h5 class="card-title" style="color: #fff;">Ana Gómez</h5>
+                                                </div>
+                                                <div class="card-body pt-0">
+                                                    <h6 class="card-text text-center">Me encantó el polarizado americano premium, la visibilidad es excelente y la garantía de 3 años me da tranquilidad.</h6>
+                                                </div>
+                                                <div class="card-footer pt-0">
+                                                    <h1 class="card-text text-center" style="color: #FCD229;">★★★★★</h1>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <div class="card profile-card-5" style="width: 25rem; height: 20rem;">
+                                                <div class="card-img-block justify-content-center text-center">
+                                                    <img class="card-img-top" src="../static/images/logo/IMG_8013.PNG" alt="Card image cap" style="width: 15rem;">
+                                                </div>
+                                                <div class="card-header text-center" style="background-color: #637e88;">
+                                                    <h5 class="card-title" style="color: #fff;">Sofia Guerrero</h5>
+                                                </div>
+                                                <div class="card-body pt-0">
+                                                    <h6 class="card-text text-center">Me gustó mucho el servicio de polarizado, la calidad es excelente y el precio es razonable. </h6>
+                                                </div>
+                                                <div class="card-footer pt-0">
+                                                    <h1 class="card-text text-center" style="color: #FCD229;">★★★★★</h1>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <div class="card profile-card-5" style="width: 25rem; height: 20rem;">
+                                                <div class="card-img-block justify-content-center text-center">
+                                                    <img class="card-img-top" src="../static/images/logo/IMG_8013.PNG" alt="Card image cap" style="width: 15rem;">
+                                                </div>
+                                                <div class="card-header text-center" style="background-color: #637e88;">
+                                                    <h5 class="card-title" style="color: #fff;">Andres Felipe</h5>
+                                                </div>
+                                                <div class="card-body pt-0">
+                                                    <h6 class="card-text text-center">El semi blindaje es perfecto para mi vehículo, la protección es total y la instalación fue rápida. </h6>
+                                                </div>
+                                                <div class="card-footer pt-0">
+                                                    <h1 class="card-text text-center" style="color: #FCD229;">★★★★★</h1>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <div class="card profile-card-5" style="width: 25rem; height: 20rem;">
+                                                <div class="card-img-block justify-content-center text-center">
+                                                    <img class="card-img-top" src="../static/images/logo/IMG_8013.PNG" alt="Card image cap" style="width: 15rem;">
+                                                </div>
+                                                <div class="card-header text-center" style="background-color: #637e88;">
+                                                    <h5 class="card-title" style="color: #fff;">Luisa Fernanda</h5>
+                                                </div>
+                                                <div class="card-body pt-0">
+                                                    <h6 class="card-text text-center">El wrap que me hicieron es increíble, el diseño es único y la calidad es excelente. </h6>
+                                                </div>
+                                                <div class="card-footer pt-0">
+                                                    <h1 class="card-text text-center" style="color: #FCD229;">★★★★★</h1>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <div class="card profile-card-5" style="width: 25rem; height: 20rem;">
+                                                <div class="card-img-block justify-content-center text-center">
+                                                    <img class="card-img-top" src="../static/images/logo/IMG_8013.PNG" alt="Card image cap" style="width: 15rem;">
+                                                </div>
+                                                <div class="card-header text-center" style="background-color: #637e88;">
+                                                    <h5 class="card-title" style="color: #fff;">Cristian Camilo</h5>
+                                                </div>
+                                                <div class="card-body pt-0">
+                                                    <h6 class="card-text text-center">El detallado profesional es excelente, mi vehículo está como nuevo. </h6>
+                                                </div>
+                                                <div class="card-footer pt-0">
+                                                    <h1 class="card-text text-center" style="color: #FCD229;">★★★★★</h1>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <div class="card profile-card-5" style="width: 25rem; height: 20rem;">
+                                                <div class="card-img-block justify-content-center text-center">
+                                                    <img class="card-img-top" src="../static/images/logo/IMG_8013.PNG" alt="Card image cap" style="width: 15rem;">
+                                                </div>
+                                                <div class="card-header text-center" style="background-color: #637e88;">
+                                                    <h5 class="card-title" style="color: #fff;">Jorge Enrique</h5>
+                                                </div>
+                                                <div class="card-body pt-0">
+                                                    <h6 class="card-text text-center">El polarizado que me instalaron es de alta calidad, la visibilidad es excelente y la retención de calor es total. </h6>
+                                                </div>
+                                                <div class="card-footer pt-0">
+                                                    <h1 class="card-text text-center" style="color: #FCD229;">★★★★★</h1>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <div class="card profile-card-5" style="width: 25rem; height: 20rem;">
+                                                <div class="card-img-block justify-content-center text-center">
+                                                    <img class="card-img-top" src="../static/images/logo/IMG_8013.PNG" alt="Card image cap" style="width: 15rem;">
+                                                </div>
+                                                <div class="card-header text-center" style="background-color: #637e88;">
+                                                    <h5 class="card-title" style="color: #fff;">Camila Rueda</h5>
+                                                </div>
+                                                <div class="card-body pt-0">
+                                                    <h6 class="card-text text-center">Me gustó mucho el servicio de atención al cliente, son amables y profesionales.</h6>
+                                                </div>
+                                                <div class="card-footer pt-0">
+                                                    <h1 class="card-text text-center" style="color: #FCD229;">★★★★★</h1>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Controles del carrusel -->
+                                <button class="carousel-control-prev" type="button" data-bs-target="#comentariosCarousel" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#comentariosCarousel" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="metodos-pago" class="container-fluid text-white py-5" style="background-color: #222;">
+        <div class="container" >
+            <h2 class="fw-bold text-center mb-4">💳 Métodos de Pago Disponibles</h2>
+            <p class="text-center">Aceptamos transferencias bancarias, pagos con tarjeta y efectivo para tu comodidad.</p>
+            
+            <div class="row justify-content-center text-center">
+                <div class="col-md-4">
+                    <i class="bi bi-bank text-warning fs-1"></i>
+                    <h5 class="mt-2 text-warning">Transferencia Bancaria</h5>
+                </div>
+                <div class="col-md-4">
+                    <i class="bi bi-credit-card text-warning fs-1"></i>
+                    <h5 class="mt-2 text-warning">Tarjeta de Crédito/Débito</h5>
+                </div>
+                <div class="col-md-4">
+                    <i class="bi bi-cash text-warning fs-1"></i>
+                    <h5 class="mt-2 text-warning">Efectivo</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacto" class="container-fluid text-white py-5" style="height: auto; background-color: black;">
+        <div class="row justify-content-center text-center">
+            <!-- Contáctanos -->
+            <div class="col-12 col-md-3 d-flex flex-column align-items-center mb-4">
+                <h4 class="mb-2">Contáctanos</h4>
+                <div style="width: 50%; border-bottom: 2px solid red; margin-bottom: 10px;"></div>
+                <div class="text-center">
+                    <a href="tel:+573163684665" class="contact-link d-flex align-items-center" 
+                       style="gap: 8px; text-decoration: none; color: inherit;">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="height: 1.5rem;" fill="brown">
+                            <path d="M280 0C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-32-72c0-13.3 10.7-24 24-24c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24zM117.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L144 207.3c33.3 70.4 90.3 127.4 160.7 160.7L345 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C481.8 499.9 466 512 448 512C200.6 512 0 311.4 0 64C0 46 12.1 30.2 29.5 25.4l88-24z"/>
+                        </svg>
+                        <span class="contact-link">3163684665</span>
+                    </a>
+                </div>
+            </div>
+    
+            <!-- Síguenos -->
+            <div class="col-12 col-md-3 d-flex flex-column align-items-center mb-4">
+                <h4 class="mb-2">Síguenos</h4>
+                <div style="width: 50%; border-bottom: 2px solid red; margin-bottom: 10px;"></div>
+                <div>
+                    <a href="https://www.instagram.com/polarizadosprofesionales" target="_blank" class="instagram-circle">
+                        <i class="bi bi-instagram" style="font-size: 1.5rem;"></i>
+                    </a>
+                </div>
+            </div>
+    
+            <!-- Encuéntranos Aquí -->
+            <div class="col-12 col-md-3 d-flex flex-column align-items-center mb-4">
+                <h4 class="mb-2">Encuéntranos Aquí</h4>
+                <div style="width: 50%; border-bottom: 2px solid red; margin-bottom: 10px;"></div>
+                <div class="d-flex align-items-center text-center">
+                    <i class="bi bi-geo-alt-fill" style="font-size: 2rem; color: darkgrey; margin-right: 10px;"></i>
+                    <h6 class="m-0">Libertadores Jamundi - Valle<br>Cll 14 N°8-32</h6>
+                </div>
+            </div>
+    
+            <!-- Mapa -->
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3983.3519132317238!2d-76.5400247250283!3d3.262505596712516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zM8KwMTUnNDUuMCJOIDc2wrAzMicxNC44Ilc!5e0!3m2!1ses!2sco!4v1741312375819!5m2!1ses!2sco" 
+                    width="100%" height="250" 
+                    style="border:0; border-radius: 10px;" 
+                    allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Tooltip flotante -->
+    <div class="whatsapp-tooltip">Chatea con nosotros</div>
+
+    <!-- Botón de WhatsApp -->
+    <a href="https://api.whatsapp.com/send?phone=573163684665&text=%C2%A1Hola!%20%F0%9F%98%8A%20%C2%BFPodr%C3%ADan%20proporcionarme%20una%20cotizaci%C3%B3n%20para%20sus%20servicios%20de%20polarizaci%C3%B3n%20profesional%3F%20Me%20gustar%C3%ADa%20conocer%20las%20opciones%20disponibles%20y%20sus%20respectivos%20precios.%20Quedo%20atento%20a%20su%20respuesta.%20%C2%A1Muchas%20gracias!%20%F0%9F%99%8C" 
+        target="_blank" class="whatsapp-btn d-flex align-items-center justify-content-center">
+        <i class="bi bi-whatsapp fs-2"></i>
+    </a>
+    <script async src="//www.instagram.com/embed.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../static/js/jquery.event.move.js"></script>    
+    <script src="../static/js/jquery.twentytwenty.js"></script> 
+    <link rel="stylesheet" href="../static/css/bootstrap.css">   
+    <link rel="stylesheet" href="../static/css/twentytwenty.css">     
+    <script src="../static/js/scripts.js"></script>
+    <!-- FontAwesome para iconos -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
