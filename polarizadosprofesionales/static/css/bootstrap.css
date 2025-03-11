@@ -200,6 +200,26 @@ body {
     overflow-x: hidden;
 }
 
+.whatsapp-tooltip {
+    position: fixed;
+    bottom: 80px;
+    right: 25px;
+    background: #25d366;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: none;
+    font-size: 14px;
+}
+.brand-logo {
+    max-width: 120px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+.brand-logo:hover {
+    transform: scale(1.1);
+}
+
 /*Profile Card 5*/
 .profile-card-5 {
     margin-top: 20px;
