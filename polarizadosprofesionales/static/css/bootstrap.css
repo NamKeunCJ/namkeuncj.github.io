@@ -196,6 +196,7 @@
 body {
     background: url('../images/local.jpg') no-repeat center center fixed;
     background-size: cover;
+    background-attachment: fixed;
     color: white;
     overflow-x: hidden;
 }
