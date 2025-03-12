@@ -194,11 +194,13 @@
 
 /* Imagen de fondo fija */
 body {
-    background: url('../images/local.jpg') no-repeat center center fixed;
+    background: url('../images/local.jpg') no-repeat center center;
     background-size: cover;
+    background-attachment: scroll;
     color: white;
     overflow-x: hidden;
 }
+
 section{
     width: 90%;
 }
