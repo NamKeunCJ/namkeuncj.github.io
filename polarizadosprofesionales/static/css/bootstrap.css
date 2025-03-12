@@ -200,6 +200,7 @@ body {
     overflow-x: hidden;
 }
 
+
 section{
     width: 90%;
 }
@@ -404,7 +405,7 @@ section{
     background-color: #efefef;
     transition: 0.4s ease-in-out;
     box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
-    flex: 1;
+    flex: 0.4;
 }
 
 .contenedor-imagen img {
@@ -415,7 +416,7 @@ section{
 
 /* Al cargar la página, la primera imagen estará expandida */
 .contenedor-imagen.expandido {
-    flex: 2;
+    flex: 3;
     border-radius: 10px;
 }
 
