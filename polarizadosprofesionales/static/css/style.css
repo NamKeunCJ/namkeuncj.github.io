@@ -80,7 +80,7 @@ body {
 @media (max-width: 768px) {
     .accordion {
         flex-direction: column;
-        height: 100vh; /* Ocupar toda la pantalla */
+        height: 100%; /* Ocupar toda la pantalla */
         width: 100%;
     }
     .panel {
@@ -89,7 +89,7 @@ body {
         transition: height 0.5s ease-in-out, filter 0.5s ease-in-out;
     }
     .panel.active {
-        height: 55vh; /* Panel expandido */
+        height: 90vh; /* Panel expandido */
     }
 }
 
