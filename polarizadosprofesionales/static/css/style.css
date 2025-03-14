@@ -7,14 +7,7 @@ body {
 
 /* Acordion de imagenes */
 
-@keyframes neonPulse {
-    0% {
-        box-shadow: 0px 0px 10px rgb(255, 255, 255), 0px 0px 20px #6AC5E7;
-    }
-    25% {
-        box-shadow: 0px 0px 20px rgb(255, 255, 255), 0px 0px 40px #6AC5E7;
-    }
-}
+
 .accordion-container {
     display: flex;
     justify-content: center;
@@ -26,8 +19,12 @@ body {
     border-radius: 20px;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
     padding: 10px;
-    filter: drop-shadow(0px 0px 15px rgb(255, 255, 255));
-    animation: neonPulse 4s infinite alternate;
+    box-shadow: 
+        0px 15px 35px rgba(255, 255, 255, 0.15), /* Luz blanca sutil */
+        0px 25px 80px rgba(0, 0, 0, 0.95); /* Sombra más intensa */
+    backdrop-filter: blur(12px); /* Difuminado de fondo más fuerte */
+    border: 2px solid rgba(255, 255, 255, 0.2); /* Borde semi-transparente más visible */
+    transform: translateY(-12px); /* Más desplazamiento hacia arriba */
 }
 .accordion {
     display: flex;
@@ -44,7 +41,7 @@ body {
     transition: flex 0.7s ease-in-out, filter 0.5s ease-in-out;
     cursor: pointer;
     position: relative;
-    filter: brightness(60%) saturate(120%);
+    filter: brightness(65%) saturate(120%);
 }
 .panel.active {
     flex: 3;
