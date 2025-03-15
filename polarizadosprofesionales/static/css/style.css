@@ -6,7 +6,8 @@ body {
 /* Filtro para iconos de polarizado */
 .icono_polarizado {
     filter: drop-shadow(0px 0px 15px #6AC5E7) 
-            drop-shadow(0px 0px 40px #6AC5E7);
+            drop-shadow(0px 0px 30px #6AC5E7) 
+            drop-shadow(0px 0px 50px #6AC5E7);
 }
 /* Efecto sombra*/
 .flotante_sombra {
@@ -33,10 +34,10 @@ body {
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
     padding: 10px;
     box-shadow: 
-        0px 15px 35px rgba(255, 255, 255, 0.15), /* Luz blanca sutil */
+        0px 15px 35px rgba(106, 197, 231, 0.15), /* Luz blanca sutil */
         0px 25px 80px rgba(0, 0, 0, 0.95); /* Sombra más intensa */
     backdrop-filter: blur(12px); /* Difuminado de fondo más fuerte */
-    border: 2px solid rgba(255, 255, 255, 0.2); /* Borde semi-transparente más visible */
+    border: 3px solid rgba(106, 197, 231, 0.2); /* Borde semi-transparente más visible */
     transform: translateY(-12px); /* Más desplazamiento hacia arriba */
 }
 .accordion {
@@ -128,20 +129,20 @@ body {
 /* ---- EFECTO DE LUZ AL HACER HOVER ---- */
 .metodo-pago:hover {
     transform: scale(1.1);
-    box-shadow: 0px 0px 25px rgba(255, 204, 0, 0.8), 0px 0px 5px rgba(255, 204, 0, 0.6) inset;
+    box-shadow: 0px 0px 25px rgba(143, 214, 249, 0.8), 0px 0px 5px rgba(141, 228, 228, 0.6) inset;
 }
 
 /* ---- ESTILO DE ICONOS ---- */
 .metodo-pago i {
-    color: #ffcc00;
-    filter: drop-shadow(0px 0px 10px #ffcc00);
+    color: #6AC5E7;
+    filter: drop-shadow(0px 0px 10px #6AC5E7);
     font-size: 50px;
 }
 
 /* ---- ESTILO DE TEXTO ---- */
 .metodo-pago h5 {
-    color: #ffcc00;
-    text-shadow: 0px 0px 10px #ffcc00;
+    color: #6AC5E7;
+    text-shadow: 0px 0px 10px #6AC5E7;
 }
 
 
@@ -307,7 +308,7 @@ body {
 
 /* Linea para subrayar */
 .highlighted-text {
-    color: #FCD229; /* Amarillo */
+    color: #6AC5E7; 
     font-weight: bold;
     position: relative;
     display: inline-block;
@@ -341,7 +342,7 @@ body {
 }
 
 .instagram-circle:hover {
-    background-color: #FCD229; /* Color más oscuro al pasar el mouse */
+    background-color: #f0d54c; /* Color más oscuro al pasar el mouse */
 }
 
 .contact-link {
@@ -354,7 +355,7 @@ body {
 }
 
 .contact-link:hover {
-    color: #ffcc00; /* Color en hover */
+    color: #6AC5E7; /* Color en hover */
 }
 
 .contact-link svg {
@@ -362,7 +363,7 @@ body {
 }
 
 .contact-link:hover svg {
-    fill: #ffcc00; /* Cambio de color del icono en hover */
+    fill: #6AC5E7; /* Cambio de color del icono en hover */
 }
 
 /*Boton whatsapp*/
