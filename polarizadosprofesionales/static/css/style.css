@@ -9,6 +9,42 @@ body {
             drop-shadow(0px 0px 30px #6AC5E7) 
             drop-shadow(0px 0px 50px #6AC5E7);
 }
+
+.logo-superpuesto {
+    position: absolute;
+    top: 50%;  /* Ajusta la posición verticalmente */
+    left: 50%; /* Ajusta la posición horizontalmente */
+    transform: translate(-50%, -50%);
+    width: 100%; /* Ajusta el tamaño del logo */
+    min-width: 300px;
+    min-height: 300px;
+    z-index: 10; /* Asegura que esté por encima de la imagen */
+}
+
+@keyframes neonGlow {
+    0% {
+        filter: drop-shadow(0px 0px 5px #6AC5E7) 
+                drop-shadow(0px 0px 15px #6AC5E7) 
+                drop-shadow(0px 0px 30px #6AC5E7);
+    }
+    50% {
+        filter: drop-shadow(0px 0px 10px #6AC5E7) 
+                drop-shadow(0px 0px 25px #6AC5E7) 
+                drop-shadow(0px 0px 45px #6AC5E7);
+    }
+    100% {
+        filter: drop-shadow(0px 0px 5px #6AC5E7) 
+                drop-shadow(0px 0px 15px #6AC5E7) 
+                drop-shadow(0px 0px 30px #6AC5E7);
+    }
+}
+
+.icono_brillo {
+    animation: neonGlow 0.9s infinite alternate ease-in-out;
+}
+
+
+
 /* Efecto sombra*/
 .flotante_sombra {
     position: relative;
